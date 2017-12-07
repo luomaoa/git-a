@@ -1,0 +1,23 @@
+git init          			------在本地建立版本库
+git status        			------查看工作区文件变化状态
+git add [filename / .]			------将变动添加到暂存区
+git commit -m "注释"			------将工作区内容添加到本地版本库
+git push -u origin [分支名称]           ------将本地版本库某个分支的内容推送到远程仓库
+
+git log					------查看当天的commit记录
+git reflog 				------查看该版本库所有的历史commit记录
+git reset --hard [commit_id]		------将本地版本库回滚到某一次commit
+
+git branch [-a]                         ------查看本地[所有]分支
+git checkout -b [分支名称]		------创建新的分支且切换到新分支
+git checkout [分支名称]          	------切换到某个分支
+git merge [分支名称]			------将某个分支合并到当前分支
+git branch -d [分支名称]			------删除本地仓库的某一个分支（删除之前先离开该分支）
+git push origin :[分支名称]      	------删除远程版本库中的某个分支
+
+
+git clone [url]				------将某个远程版本库复制到本地
+git pull origin [分支名称]		------将远程版本库中的某个分支同步到本地
+
+
+ssh-keygen -t rsa -C "本地的user.email"  ------首次创建公钥
