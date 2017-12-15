@@ -3,6 +3,7 @@ git status        			------查看工作区文件变化状态
 git add [filename / .]			------将变动添加到暂存区
 git commit -m "注释"			------将工作区内容添加到本地版本库
 git push -u origin [分支名称]           ------将本地版本库某个分支的内容推送到远程仓库
+git ls					------查看当前分支已上传文件
 
 git log					------查看当天的commit记录
 git reflog 				------查看该版本库所有的历史commit记录
